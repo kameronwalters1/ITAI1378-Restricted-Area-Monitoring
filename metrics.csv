@@ -1,0 +1,6 @@
+metric,target,result,status,notes
+Person mAP50,Above 0.70,Not measured,Not evaluated,No frame-level bounding-box ground truth
+Intrusion-event recall,Above 90%,100% (4/4),Met,Four manually confirmed events across three clips
+False alerts,Below 1 per hour,0 observed in 41.7 seconds,Insufficient duration,Too little negative video for an hourly claim
+Event latency,Below 500 ms,Worst clip p95 18.9 ms,Met,End-to-end processed-frame timing on test computer
+Close-camera detection coverage,No Blueprint target,12.3% (27/219 frames),Struggle case,Person was partly outside the frame

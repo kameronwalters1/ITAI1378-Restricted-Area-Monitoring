@@ -1,0 +1,5 @@
+video,event_number,track_id,frame,timestamp_seconds,confidence,alert_image
+IMG_5462.mov,1,1,215,7.167,0.907,IMG_5462_event_01.jpg
+IMG_5463.mov,1,1,90,3.0,0.8355,IMG_5463_event_01.jpg
+IMG_5464.mov,1,1,163,5.433,0.9228,IMG_5464_event_01.jpg
+IMG_5464.mov,2,2,313,10.433,0.8583,IMG_5464_event_02.jpg

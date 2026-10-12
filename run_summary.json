@@ -1,0 +1,71 @@
+{
+  "model": "yolo11n.pt",
+  "person_class_only": true,
+  "confidence_threshold": 0.35,
+  "dwell_seconds": 0.5,
+  "zone_normalized": [
+    [
+      0.2800000011920929,
+      0.4399999976158142
+    ],
+    [
+      0.9399999976158142,
+      0.4399999976158142
+    ],
+    [
+      0.9800000190734863,
+      0.9900000095367432
+    ],
+    [
+      0.10000000149011612,
+      0.9900000095367432
+    ]
+  ],
+  "clips": [
+    {
+      "filename": "IMG_5462.mov",
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "frames": 487,
+      "duration_seconds": 16.233,
+      "detected_frames": 104,
+      "zone_positive_frames": 47,
+      "events": 1,
+      "mean_inference_ms": 16.33,
+      "median_inference_ms": 16.25,
+      "p95_inference_ms": 17.15,
+      "mean_end_to_end_ms": 23.72,
+      "p95_end_to_end_ms": 18.17
+    },
+    {
+      "filename": "IMG_5463.mov",
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "frames": 219,
+      "duration_seconds": 7.3,
+      "detected_frames": 27,
+      "zone_positive_frames": 17,
+      "events": 1,
+      "mean_inference_ms": 16.38,
+      "median_inference_ms": 16.25,
+      "p95_inference_ms": 17.81,
+      "mean_end_to_end_ms": 17.41,
+      "p95_end_to_end_ms": 18.86
+    },
+    {
+      "filename": "IMG_5464.mov",
+      "resolution": "1080x1920",
+      "fps": 30.0,
+      "frames": 544,
+      "duration_seconds": 18.133,
+      "detected_frames": 218,
+      "zone_positive_frames": 152,
+      "events": 2,
+      "mean_inference_ms": 16.49,
+      "median_inference_ms": 16.44,
+      "p95_inference_ms": 17.34,
+      "mean_end_to_end_ms": 17.51,
+      "p95_end_to_end_ms": 18.39
+    }
+  ]
+}
